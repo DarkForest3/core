@@ -46,4 +46,4 @@ jobs:
       
     - name: ls
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: dir packages
+      run: dir x64\
